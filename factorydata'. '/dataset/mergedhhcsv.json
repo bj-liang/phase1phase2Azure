@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "hh_merged.csv",
 				"container": "hhmergedcsv"
 			},
 			"columnDelimiter": ",",
