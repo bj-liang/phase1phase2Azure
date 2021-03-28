@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "#filename = *.doc",
+				"fileName": "#filename = *.csv",
 				"container": "phase2hothour"
 			},
 			"columnDelimiter": ",",
