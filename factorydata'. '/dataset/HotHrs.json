@@ -1,0 +1,39 @@
+{
+	"name": "HotHrs",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "phase2hothour"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Prop_0",
+				"type": "String"
+			},
+			{
+				"name": "OXCoord",
+				"type": "String"
+			},
+			{
+				"name": "OYCoord",
+				"type": "String"
+			},
+			{
+				"name": "hottest_hour_n",
+				"type": "String"
+			}
+		]
+	}
+}

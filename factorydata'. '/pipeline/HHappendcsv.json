@@ -1,6 +1,7 @@
 {
-	"name": "mer",
+	"name": "HHappendcsv",
 	"properties": {
+		"description": "Making all the HH csvs into one",
 		"activities": [
 			{
 				"name": "mergeCsv",
@@ -50,7 +51,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "HotHours",
+						"referenceName": "HotHrs",
 						"type": "DatasetReference"
 					}
 				],
