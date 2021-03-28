@@ -43,6 +43,56 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "Prop_0",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Prop_0",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "OXCoord",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "OXCoord",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "OYCoord",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "OYCoord",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "hottest_hour_n",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "hottest_hour_n",
+									"type": "String",
+									"physicalType": "String"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
