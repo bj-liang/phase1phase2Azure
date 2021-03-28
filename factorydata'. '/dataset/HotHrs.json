@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "01009_1HotHour.csv",
 				"container": "phase2hothour"
 			},
 			"columnDelimiter": ",",
